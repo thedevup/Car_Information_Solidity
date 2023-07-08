@@ -1,0 +1,27 @@
+{
+  "name": "car-information-dapp",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@truffle/contract": "^4.3.19",
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "ipfs-http-client": "^60.0.0",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "description": ""
+}
